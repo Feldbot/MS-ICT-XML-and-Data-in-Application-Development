@@ -6,7 +6,7 @@
 ## Project Information
 My [final project](https://feldbot.github.io/MS-ICT-XML-and-Data-in-Application-Development/) was to create an application that displayed  data in a client browser using an XML dialect. I chose to use Journal Article Tagging Suite (JATS) XML. JATS is designed for use in publishing journal technical content and has a large vocabulary to describe the metadata often associated with journal publishing. Viewing the source code of this project will reveal the JATS markup structure.
 
-At the time of this project's completion , I had a special interest since I worked on a journal for a STEM content publisher. I found this project fascinating to see how using a specialized flavor of XML markup could help standardize the portability of content across systems and platforms.
+At the time of this project's completion , I had a special interest since I worked on a journal for a STEM content publisher. I found this project fascinating to see how using XML markup could help standardize the portability of content across systems and platforms, while creating scalability with data-description vocabularies.
 
 ## Built With
 - HTML, CSS, JavaScript
