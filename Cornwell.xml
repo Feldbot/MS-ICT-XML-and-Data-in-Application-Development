@@ -1,0 +1,302 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+
+<!--
+File: Cornwell.xml
+Name: Daniel Feldman
+Date: 11/10/16
+Note: This file contains excerpts from files copyrighted by the American Water Works Association. Its use is for educational purposes only.
+-->
+
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN"
+  "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+
+<article dtd-version="1.1"
+		 xmlns:xlink="http://www.w3.org/1999/xlink"
+		 xmlns:mml="http://www.w3.org/1998/Math/MathML">
+		 
+<!--  Front -->
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher">Journal American Water Works Association</journal-id>
+			<issn>1551-8833</issn>
+			<publisher>
+				<publisher-name>American Water Works Association</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">http://dx.doi.org/10.5942/jawwa.2016.108.0086</article-id>
+			<article-categories>
+				<subj-group>
+					<subject>Lead service line occurrence</subject>
+					<subj-group>
+						<subject>lead</subject>
+						<subject>service lines</subject>
+						<subject>LSL</subject>
+					</subj-group>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>National Survey of Lead Service Line Occurrence</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Cornwell</surname>
+						<given-names>David</given-names>
+					</name>
+					<role>President of Environmental Engineering &amp; Technology Inc.</role>
+				    <xref ref-type="aff" rid="aff-1"/>
+				</contrib>    
+				<contrib contrib-type="author">
+					<name>
+						<surname>Brown</surname>
+						<given-names>Richard A.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff-2"/>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Via</surname>
+						<given-names>Steve H.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff-2"/>
+				</contrib>
+			</contrib-group>
+			<aff id="aff-1">Environmental Engineering and Technology Inc., Newport News, Va.</aff>
+			<aff id="aff-2">AWWA, Washington, D.C.</aff>
+			<pub-date date-type="pub" publication-format="web" iso-8601-date="2016-04-01">
+				<day>01</day>
+				<month>04</month>
+				<year>2016</year>
+			</pub-date>
+			<volume>108</volume>
+			<issue>4</issue>
+			<fpage>E182-</fpage>
+			<lpage>E191</lpage>
+			<history>
+				<date date-type="accepted" iso-8601-date="2016-02-16">
+					<day>16</day>
+					<month>2</month>
+					<year>2016</year>
+				</date>
+			</history>
+			<permissions>
+				<copyright-statement>Copyright 2016, American Water Works Association</copyright-statement>
+				<copyright-year>2016</copyright-year>
+			</permissions>
+			<abstract>
+				<p>This article summarizes findings from two AWWA-sponsored surveys of US community water systems (CWSs) that were conducted to gather information on lead-containing service lines (LSLs) in different regions of the United States for different sizes (population ranges) of water systems. The major objective of this research was to estimate the number of water systems with LSLs and the approximate number of LSLs nationwide and by region. These estimates were ultimately extrapolated to state occurrence. The survey results indicated a national estimate of 6.1 million LSLs (either full or partial) currently present in CWSs of the United States, compared with 10.2 million estimated at the time of the original Lead and Copper Rule (LCR) (USEPA 1991); approximately 11,200 CWSs currently have LSLs compared with more than 15,000 estimated in the original LCR; 15 to 22 million people served by CWSs are estimated to have either a full or partial LSL serving their home out of a total population served by CWSs of about 293 million (7%); and approximately 30% of the CWSs surveyed (national average) reported having some LSLs in their system.
+				</p>
+			</abstract>
+			<kwd-group kwd-group-type="author">
+				<kwd>lcr</kwd>
+				<kwd>lead</kwd>
+				<kwd>lead service line</kwd>
+				<kwd>lsl</kwd>
+			</kwd-group>
+		</article-meta>
+	</front>
+
+<!-- Body -->	
+	<body>
+		<p>
+		Results from two AWWA-sponsored surveys regarding characteristics of drinking water service lines in US community water systems (CWSs) are described. For a detailed review of regulatory and water chemistry characteristics of lead in drinking water, see 
+		<xref ref-type="bibr" rid="B1">Brown and Cornwell </xref>
+		(2015), Brown et al.(2015, 2013), Schock and Lytle (2011), and 
+		<xref ref-type="bibr" rid="B2">Schock </xref>
+		(1989), and the many related references found within these papers.
+		</p>		 
+		<p>PREVIOUS NATIONAL LEAD SERVICE LINE ESTIMATES</p>
+		<p>
+		AWWA conducted a similar survey in 1988, summarized by the US Environmental Protection Agency (USEPA) (1991), Weston and EES (1990), and Frey (1989). The first two references present national lead service line (LSL) estimates. USEPA (1991) reported that the methodology in the initial AWWA survey estimated 7.0 million LSLs. These estimates were revised upward to 10.2 million by USEPA, as reported in the USEPA regulatory impact analysis (RIA) for the 1991 Lead and Copper Rule (LCR) (USEPA 1991). USEPA used the same database information and findings as the AWWA effort described in Weston and EES (1990) to revise the national estimate upward, though the methodology used by USEPA is not reported (USEPA 1991). The 10.2-million estimate for the number of LSLs in the United States by USEPA in the RIA was the most-referred-to value for the number of LSLs in the United States prior to the update estimate prepared through the work conducted in this article.
+		</p>
+		<p>SURVEY METHODOLOGY AND PARTICIPATION</p>
+		<p>
+		In order to prepare a national estimate of the number of LSLs, the information collected from two recent surveys was combined. The first survey is referred to as the 2011 survey in this article, and the second survey is referred to as the 2013 survey. Preliminary information from the 2011 survey was presented in Dixon and Via (2011). Observations from the 2013 survey have not been published previously. The information presented in this article used the two surveys to estimate LSL occurrence.
+		</p>
+		<p>
+		2011 survey.The 2011 survey was conducted in the spring and summer of 2011. The survey targeted CWSs serving populations >500 people, not including US territories and American Indian lands. Water systems provided information through an online survey. All water systems meeting the target population with valid addresses in USEPA’s Safe Drinking Water Information Systems (SDWIS) database were contacted via a postcard addressed to the listed water system contact. In addition, survey outreach included distributing a request for participation to all AWWA utility members in the United States. Direct contact with individual utilities (to recruit participating utilities) was complemented by an awareness-building effort with AWWA sections, the Association of Metropolitan Water Agencies, National Association of Water Companies, Water Research Foundation, National Rural Water Association, Association of State Drinking Water Administrators, and regulatory staff in individual states.
+		</p>
+		<p>
+		The survey included 12 questions developed to characterize the CWS and the components of the service lines associated with these systems, especially the lead-containing portions of the service lines. The questions specifically pertinent to the following discussion included an indication of whether the water system had LSLs and an estimate of how many LSLs are in the system (total, as well as the number of utility-owned LSLs and the number of customer-owned LSLs). The questions were clear that the response for the number of LSLs should include full and partial LSLs and should include those owned by the utility or the homeowner. A full LSL is defined as a lead line extending from the water main to the house (i.e., customer and utility portions of the service line). A partial LSL is defined as having a lead line on either the customer or the utility side of the service line but not both (typically, lead on the customer side and some other material on the utility side). A location having either a full or partial LSL was classified as having an LSL and was treated the same in the analysis.
+		</p>
+		<p>
+		Responses were received from 774 CWSs in 49 states plus the District of Columbia (D.C.), including the following USEPA regional groupings (see Figure 1 for a map of USEPA regions): 57 combined in USEPA Regions 1 and 2 (7% of the total responses received); 203 in Regions 3 and 4 (26%); 222 in Regions 5 and 7 (29%); 122 in Region 6 (16%); and 170 in Regions 8, 9, and 10 (22%).
+		</p>
+		<p>
+		2013 survey. The 2013 survey was conducted during the summer of 2013. This survey effort included both an online survey and a shorter telephone-interview survey. The online survey was provided to all US AWWA water utility members. In-person telephone interviews targeted CWSs serving populations >250,000. As in the 2011 survey, the key questions were whether LSLs were present and, if so, how many. The questions were clear that the response for number of LSLs should include full and partial lines and should include those owned by the utility or homeowner as discussed for the 2011 survey.
+		</p>
+		<p>
+		Responses were received from 204 CWSs in 43 states and D.C., including the following USEPA regional groupings: 21 combined in Regions 1 and 2 (10% of responses received); 35 in Regions 3 and 4 (17%); 37 in Regions 5 and 7 (18%); 14 in Region 6 (7%); and 97 in Regions 8, 9, and 10 (48%).		
+		</p>
+		<p>
+		Combined responses of the two surveys.The following subsections characterize the responses received from the combined surveys, including handling of duplicate responses; conflicts between responses; and a summary of responses by population, water source, and USEPA region.
+		</p>
+		<p>
+		Duplicate responses. There were 39 CWSs that responded more than once (35 responded once to each survey, and the others responded more than once to one of the surveys). These were converted to one response for each CWS using the following criteria, including how they answered the question (yes, no, or not sure) regarding whether they had LSLs:
+		</p>
+		<ul>
+			<li>14 systems reported “no” in multiple survey responses (no LSLs are present)
+			</li>
+				<ul>
+					<li>Used “no” for all 14 responses</li>
+				</ul>
+			<li>12 systems responded “yes” in multiple survey responses (LSLs are present)</li>
+				<ul>
+					<li>Used the response that reported the number of LSLs or used the most recent response if both reported the number of LSLs</li>
+				</ul>
+			<li>4 systems reported “yes” in one survey and “no” in the other</li>
+				<ul>
+					<li>Used the “yes” survey responses and the reported number of LSLs</li>
+				</ul>
+			<li>9 systems reported “not sure” in one response and either “yes” or “no” in the other
+			</li>
+				<ul>
+					<li>Used the definitive (yes or no) response</li>
+				</ul>
+		</ul>
+		<p>
+		Conflict between responses. There were instances in which water systems answered “no” or “not sure” to the question about whether their system had LSLs, but in another question they reported the number of LSLs in their system. The reported number of LSLs for these systems was used, and the response to the first question was changed to “yes” in each case (i.e., they apparently do have LSLs in their system).
+		</p>
+		<p>
+		Responses sorted by regional groups. Overall, the combined responses from both surveys included 978 CWSs in 49 of 50 states plus D.C. (no responses from New Hampshire). The responses were divided into the following USEPA regional groupings: 78 combined in Regions 1 and 2 (8% of responses received); 238 in Regions 3 and 4 (24%); 259 in Regions 5 and 7 (26%); 136 in Region 6 (14%); and 267 in Regions 8, 9, and 10 (27%). The rationale for the groupings are discussed in the “Data Analysis Considerations” section.
+		</p>
+		<p>
+		Source water. In the 2011 survey, there were 424 CWSs that used only groundwater (GW) and 350 that used at least one surface water (SW) source or groundwater under the direct influence of surface water or multiple GW and SW sources. In the 2013 survey, there were 69 that reported using GW and 135 that reported using SW. Overall, there were 485 (50% of responses) using GW and 493 (50%) using SW.
+		</p>
+		<p>
+		Population. There were 575 water systems (59% of responses) combined in both surveys serving populations &lt;10,000, 230 (24%) serving populations between 10,000 and 50,000, and 173 (18%) serving populations >50,000. These three population ranges (sizes) were used in other sections of this study.
+		</p>
+		<p>
+		Calculations regarding the confidence interval associated with the survey results were completed and discussed in appropriate sections of this article. Confidence intervals were based on the population represented by the survey results for each region and size rather than on the number of responses received. Population represented by the responses was used to determine the response-confidence interval for two reasons: first, calculations were performed by population; second, population directly relates to the number of service lines represented by survey responses. Therefore, statistical confidence was based on the number of service lines represented by the survey results compared with the total number of service lines in a specific grouping.
+		</p>
+		
+		
+		<p>ESTIMATED NUMBER OF LSLs IN US WATER SYSTEMS</p>
+		<p>
+		The documents developed during the 1991 LCR included an estimation of the number of LSLs in US water systems in order to establish the potential impact of the LCR requirements. In order to develop an updated estimate, combined data from the two surveys (2011 and 2013) and from the USEPA SDWIS database (USEPA 2015) were used to estimate the number of LSLs currently in water systems in each of the three population size ranges mentioned earlier.
+		</p>
+		<p>
+		Data analysis considerations. The combined results from the 2011 and 2013 surveys described here suggested that the distribution of data was different on the basis of population range, no matter whether the data were organized by state, region, or regional group.
+		</p>
+		As an example of LSL distribution by system size, in the combined total from Regions 1 and 2 the responses indicated that 26% of the utilities serving &lt;10,000 population had LSLs; 57% of those serving 10,000 to 50,000 had LSLs; and 89% of those serving >50,000 population had LSLs. These distribution differences by population served can be seen in Table 1. Therefore, the three different population ranges were analyzed as separate groups.
+		<p>
+		If the responses were grouped by state (plus D.C.) and size, there would be 153 bins or groups (50 states plus D.C., three population ranges). However, using this approach resulted in many of the bins having no survey responses received, so a state approach was not possible. The next consideration was to group the data by the 10 USEPA regions such that there would be 
+30 bins or groups (10 regions, three sizes). However, in this grouping there were also several bins with no responses. The next step was to group the regions into logical combinations.
+		</p>
+		<p>
+		The selected grouping was done by combining regions that are likely to have similar LSL occurrence (Figure 1). The end result was five combined regions and three size ranges for 15 total bins or groups of data. The 99% confidence interval for the survey grouped in this manner was less than 1% for each of the 15 groups, based on the population served by survey responses versus the total population in each group.
+		</p>
+		<p>
+		Calculations. The survey data were used to develop two “occurrence factors” estimating the following: the percentage of water systems that have LSLs in each of the 15 groups, and the number of LSLs/1,000 population for utilities reporting LSLs in each of the same 15 groups. These factors were used in conjunction with information on the number of CWSs in the October 2013 USEPA SDWIS database (USEPA 2015) for these same 15 groups. The calculations used can be expressed as shown in Eqs 1 and 2 for each group (i.e., three population ranges and five regional groups, or 15 groups total).
+		</p>
+	
+
+<!-- Equation -->		
+		<disp-formula id="E1">
+			<tex-math id="M1">
+			M = k × C(1)
+			A = k × N × Pop(2)
+			</tex-math>
+		</disp-formula>
+		
+		<p>
+		where M = estimated number of CWSs with LSLs calculated for a given group and population size range, k = occurrence factor from the surveys regarding percentage of water systems with LSLs for a given group and population size range, C = number of CWSs of a given population size for a given group in the SDWIS database, A = estimated number of LSLs for a given group in a given population size range, N = occurrence factor from the surveys regarding the average number of LSLs/1,000 people for water systems that have LSLs in a given population size and group, and Pop = combined population served by all the CWSs that make up C in the SDWIS database.
+		</p>
+		
+		<p>SUMMARY</p>
+		<p>
+		Results from two AWWA-sponsored surveys of US CWSs are presented describing the occurrence of LSLs in different regions of the United States for water systems serving different population sizes. The objective of this article was to estimate the number of water systems with LSLs and the approximate number of LSLs nationwide in each state by region and system size. The data presented also included information from the USEPA SDWIS database regarding the number of CWSs and population served by each in different states (USEPA 2015).
+		</p>
+		<p>The survey results indicated that, on average, approximately 30% of the CWSs surveyed reported having some LSLs in their systems. Both full and partial LSLs were counted in this analysis. Results from the two surveys and the SDWIS database were combined to estimate the number of LSLs in each state and nationwide. The overall national estimate resulting from this effort was 6.1 million LSLs, with upper and lower boundaries on this estimate of 5.5 to 7.1 million (Figure 4).
+		</p>
+		<p>
+		The estimate prepared in conjunction with the initial promulgation of the LCR in 1991, as reported in the USEPA RIA (USEPA 1991), was 10.2 million. The original estimate was for a period more than two decades earlier than the period in this study. Assuming both estimates to be reflective of LSL presence for the reported periods, there are currently about four million fewer reported LSLs. This reported reduction could be due to two major reasons. First, LSL replacement programs have reduced the prevalence of lead-containing plumbing in many water systems. Some utilities did only partial LSL replacements, which would not reduce the overall numbers since both full and partial lines are included in the totals. However, many utilities have had programs to remove the full LSL. It is also reasonable to assume that some of the reported reduction in the number of LSLs is due to better estimates and utility inventories of LSLs. The LCR resulted in many utilities obtaining better inventories of LSL presence after the original 1988 survey. As an example, utilities report going to neighborhoods where they originally thought LSLs were present, only to find there were not any (Brown et al. 2015). The reported reduction in LSL occurrence is a result of both replacement activity and better inventories.
+		</p>
+		<p>
+		The survey estimated that approximately 11,200 CWSs in the United States currently have LSLs in their systems, as compared with >15,000 estimated 26 years earlier (USEPA 1991). The estimated population with LSLs supplying their homes is 15 million to 22 million nationally. Overall the estimates indicate that in the last 26 years there has been a 40% reduction in the number of reported LSLs in the United States and a reduction of 30% in the number of CWSs that have LSLs. This reduction is either through full LSL replacement or better inventories.
+		</p>
+	</body>
+	
+<!-- Back -->
+	<p>ACKNOWLEDGMENT</p>	
+	<back>
+		<ack>
+			<p>
+			The 2011 survey was originally tabulated, summarized, and evaluated by Kevin Dixon and then presented at the 2011 AWWA Water Quality Technology Conference. Clayton Cope (then at AWWA) collected and catalogued the 2013 survey data; the authors appreciate all the work done by him in collecting the data.
+			</p>
+		</ack>
+		<bio>
+			<p>ABOUT THE AUTHORS</p>
+			<p>
+			David A. Cornwell (to whom correspondence may be addressed) is president of Environmental Engineering &amp; Technology Inc., 712 Gum Rock Ct., Newport News, VA 23606 USA; dcornwell@eetinc.com. He has been a technical advisor to AWWA during negotiations with the US Environmental Protection Agency (USEPA) for several regulatory developments affecting US drinking water facilities. Additionally, he prepared and reviewed formal comments, guidance manuals, and supporting documents from AWWA on these regulations. Cornwell was honored with AWWA’s 
+A.P. Black Research Award. He received his PhD, MSE, and BSIE degrees from the University of Florida, Gainesville. Richard A. Brown is vice-president of Environmental Engineering &amp; Technology Inc. Steve H. Via is the regulatory affairs manager in AWWA’s office in Washington, D.C.
+			</p>
+		</bio>
+		<ref-list>
+			<p>REFERENCES</p>
+			<ref id="B1">
+				<label>Brown, R. &amp; Cornwell, D.</label>
+				<element-citation publication-type="journal" publication-format="print">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brown</surname>
+							<given-names>R.</given-names>
+						</name>
+						<name>	
+							<surname>Cornwell</surname>
+							<given-names>D.</given-names>
+						</name>
+					</person-group>
+					<article-title>High-Velocity Household and Service Line Flushing Following LSL Replacement.
+					</article-title>
+					<source>Journal AWWA</source>
+					<year iso-8601-date="2015">2015</year>
+					<volume>107</volume>
+					<issue>3</issue>
+					<fpage>E182-</fpage>
+					<lpage>E191</lpage>
+					<uri>http://dx.doi.org/10.5942/jawwa.2015.107.0012</uri>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>Schock, M.</label>
+				<element-citation publication-type="journal" publication-format="print">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shock</surname>
+							<given-names>M.</given-names>
+						</name>
+					</person-group>
+					<article-title>Understanding Corrosion Control Strategies for Lead. 
+					</article-title>
+					<source>Journal AWWA</source>
+					<year iso-8601-date="1989">1989</year>
+					<volume>81</volume>
+					<issue>7</issue>
+					<fpage>88</fpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	
+<!-- Floating Element Group (figures, tables) -->
+<!-- These elements are included to demonstrate calculations only -->	
+	<floats-group>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<table-wrap></table-wrap>
+		<table-wrap></table-wrap>
+		<table-wrap></table-wrap>
+		<table-wrap></table-wrap>
+		<table-wrap></table-wrap>
+	</floats-group>
+</article>

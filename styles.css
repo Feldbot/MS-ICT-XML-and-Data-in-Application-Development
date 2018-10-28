@@ -1,0 +1,61 @@
+/*
+name: Daniel Feldman
+date: 11/10/16
+file: styles.css
+*/
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+	}
+
+#header {
+	background: teal;
+	height: 120px;
+	display: block;
+	position: relative;
+	}
+
+#intro, #metadata {
+	clear: right;
+	margin: 25px 50px 0px 0px;
+	}
+
+#leftnav {
+	width: 125px;
+	height: 100vh;
+	float: left;
+	margin: 10px 25px 0px 0px;
+	}
+
+h1, h2 {
+	color: white;
+	font-family: arial, sans-serif;
+	text-align: center;
+	padding: 10px;
+	}
+
+h1 {
+	font-size: 1.6em;
+	}
+
+h2 {
+	margin-top: -30px;
+	font-size: 1.2em;
+	}
+
+ul {
+	list-style-type: none;
+	}
+
+li, p {
+	font-family: arial; sans-serif;
+	font-size: .9em;
+	}
+	
+img {
+	float: right;
+	width: 150px;
+	padding:0px 25px;
+	}	
+	

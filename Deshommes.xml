@@ -1,0 +1,325 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+
+<!--
+File: Deshommes.xml
+Name: Daniel Feldman
+Date: 11/10/16
+Note: This file contains excerpts from files copyrighted by the American Water Works Association. Its use is for educational purposes only.
+-->
+
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN"
+  "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+ 
+<article dtd-version="1.1" 
+		 xmlns:xlink="http://www.w3.org/1999/xlink" 
+		 xmlns:mml="http://www.w3.org/1998/Math/MathML">
+
+<!--  Front -->
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="publisher">Journal American Water Works Association</journal-id>
+			<issn>1551-8833</issn>
+			<publisher>
+				<publisher-name>American Water Works Association</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="doi">http://dx.doi.org/10.5942/jawwa.2016.108.0167</article-id>
+			<article-categories>
+				<subj-group>
+					<subject>Water treatment</subject>
+					<subj-group>
+						<subject>lead</subject>
+						<subject>service lines</subject>
+						<subject>water sampling</subject>
+					</subj-group>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Monitoring-Based Framework to Detect and Manage Lead Water Service Lines</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Deshommes</surname>
+						<given-names>Elise</given-names>
+					</name>
+					<role>Research associate at the NSERC Chair on Drinking Water in the Department of Civil, Geological, and Mining Engineering at Polytechnique Montréal</role>
+				    <xref ref-type="aff" rid="aff-1"/>
+				</contrib>    
+				<contrib contrib-type="author">
+					<name>
+						<surname>Bannier</surname>
+						<given-names>Alicia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff-2"/>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Laroche</surname>
+						<given-names>Laurent</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff-2"/>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Nour</surname>
+						<given-names>Shokoufeh</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff-1"/>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Prévost</surname>
+						<given-names>Michèle</given-names> 
+					</name>
+					<xref ref-type="aff" rid="aff-1"/>
+				</contrib>
+			</contrib-group>
+			<aff id="aff-1">Polytechnique Montréal, Montréal, Que., Canada</aff>
+			<aff id="aff-2">Ville de Montréal, Montréal, Que., Canada</aff>
+			<pub-date date-type="pub" publication-format="web" iso-8601-date="2016-11-01">
+				<day>1</day>
+				<month>11</month>
+				<year>2016</year>
+			</pub-date>
+			<volume>108</volume>
+			<issue>11</issue>
+			<fpage>E555-</fpage>
+			<lpage>E570</lpage>
+			<history>
+				<date date-type="accepted" iso-8601-date="2016-05-26">
+					<day>26</day>
+					<month>5</month>
+					<year>2016</year>
+				</date>
+			</history>
+			<permissions>
+				<copyright-statement>Copyright 2016, American Water Works Association</copyright-statement>
+				<copyright-year>2016</copyright-year>
+			</permissions>
+			<abstract>
+				<p>Profile sampling was conducted using 112 dwellings of various types and configurations of water pipes consisting of lead service lines (LSLs). A detailed investigation of plumbing volumes was conducted in 44 of these homes. Results revealed a wide range of piping volume and associated lead profiling trends. These differences are critical for exposure assessment and interpretation of regulatory sampling results that most often use first draw results after stagnation. Moreover, while peak lead levels in the profiles were comparable between households, the volume in which these elevated lead levels occurred varied with dwelling type and LSL configuration. Mean profile concentrations were successfully correlated to concentrations after flushing, suggesting that a simplified LSL detection protocol could be applied on a large scale. A framework is proposed on the basis of these results to screen for LSLs, validate lead reduction strategies, identify sites at risk of elevated exposure, and support public health actions.
+				</p>
+			</abstract>
+			<kwd-group kwd-group-type="author">
+				<kwd>lead service line detection</kwd>
+				<kwd>partial lead service line replacements</kwd>
+				<kwd>profile sampling</kwd>
+				<kwd>risk of exposure</kwd>
+			</kwd-group>
+		</article-meta>
+	</front>
+
+<!-- Body -->	
+	<body>
+		
+		<p>
+		Most utilities operating old water distribution systems manage a legacy of lead service lines (LSLs). According to a recent survey, about 30% of US community water systems could have LSLs (
+		<xref ref-type="bibr" rid="B1">Cornwell et al. </xref>
+		2016.). Furthermore, LSLs contribute up to 50–75% of lead concentrations at the tap and are considered to be the primary source of exposure to lead at the tap in households ( 
+		<xref ref-type="bibr" rid="B3">Sandvig et al. </xref> 
+		2008.). As recent events in Flint, Mich., show, a good inventory of LSL sites is the basis for conducting efficient monitoring, guiding prevention interventions, and developing and validating a lead reduction strategy ( 
+		<xref ref-type="bibr" rid="B2">Hanna-Attisha et al. </xref> 
+		2016.). Considering that municipal records regarding the type and configuration of LSLs are often incomplete, the house construction date and location can be used to estimate the likelihood of presence of an LSL. The number of LSLs can be significant; for example, 60,000–80,000 LSLs were estimated by the cities of Milwaukee, Wis.; Montréal, Que.; and Toronto, Ont., before any replacement work (Biedrzycki 2016, Ville de Montréal 2016, City of Toronto 2011).
+		</p>
+		
+		<h1>BACKGROUND</h1>
+		<p>
+		Regulatory sampling. The World Health Organization (WHO) provisional guideline of 10 µg/L for lead at the tap is designated on the basis of treatment performance and achievability, as a lower level would be needed in light of revised health assessments (WHO 2011). Most countries, with the exception of the United States, have established drinking water standards that are based on this guideline. Table 1 summarizes the main requirements for compliance sampling in North America and member countries of the European Union. Regulatory sampling protocols vary. In Ontario, Canada, 2 consecutive liters are collected after 30 min of stagnation (30MS) preceded by 5 min of flushing for both single-family homes and multi-unit dwellings with a likelihood of having LSLs. Compliance is based on the 90th percentile of lead concentration distribution (using the maximum concentration in every house) meeting the maximum contaminant level (MCL) of 10 µg/L (Government of Ontario 2007). In Quebec, Canada, the drinking water standard is set at 10 μg/L after 5 min of flushing (5MF), with single-, two-, and three-family homes considered priority sites. If a household exceeds this level, 4 consecutive liters after 30MS are collected for this household to further investigate lead concentrations (MDDELCC 2014). Health Canada guidelines consist of the collection of the first draw after overnight stagnation as Tier 1. If 10% of the households exceed 15 μg/L, the collection of 4 L after ≥6 h stagnation is recommended (Health Canada 2009). In the United States, first draw samples are collected after overnight stagnation in high-risk single-family homes as Tier 1 (with LSL or lead solders) according to the Lead and Copper Rule (LCR) (USEPA 1991). Although not specifically mentioned in the LCR, the samples should be collected without prior preflushing. If the 90th percentile exceeds the action level of 15 μg/L, corrosion control must be implemented. Additional sampling to determine consumer exposure or lead sources in the households is not prescribed in systems exceeding the action level. In Europe, an assessment of the suitability of sampling strategies identified random daytime (RDT) sampling for compliance in sites selected randomly among public and private buildings. Sampling after 30MS is also recommended for the evaluation of specific lead sources (Hoekstra et al. 2009). WHO guidelines refer to the International Organization for Standardization’s 5667-5 protocol that prescribes sampling the initial draw-off and/or samples after a specified period of stagnation if the effect of materials on water quality is being investigated, or a 2–3 min flushed sample to evaluate the distributed water quality (ISO 2006).
+		</p>
+		<p>
+		Lead concentrations at the tap depend on water quality, stagnation time, premise plumbing volume, dwelling type, sample volume, sample handling, sampling flow rate, analytical method, and water temperature (Sandvig et al. 2008). These factors must be taken into consideration when applying regulatory sampling for detecting LSLs. Compliance-oriented sampling protocols listed in Table 1 are not designed to detect LSLs and may not be suited for this purpose. Moreover, LSLs are the main cause of noncompliance in a system, and their removal is usually not considered. In the United States, systems exceeding the action level after implementing corrosion control treatment are required to replace LSLs at a minimal rate of 7% annually and to sample for lead if the private section of the LSL is not removed (USEPA 1991). In Ontario, noncompliant systems must implement corrosion control and/or an LSL replacement program (Government of Ontario 2007).
+		</p>
+		<p>
+		Investigative sampling to detect LSLs. Profile (sequential) sampling and fully flushed sampling have been used to confirm the presence of an LSL. Profile sampling implies the collection of approximately 4 to 12 consecutive liters from the kitchen tap following standardized stagnation in order to collect water having stagnated in the different sections of the piping from the kitchen tap to the main (Del Toral et al. 2013, Sandvig et al. 2008). Typically, observed peak lead concentrations correspond to water having stagnated in the lead pipe section. Profile sampling can be used to detect maximum concentrations after stagnation, identify lead sources, validate corrosion control efficacy, and improve exposure assessment (MDDELCC 2014, Health Canada 2009). Sampling after flushing has also been used by some utilities to detect LSLs. On the basis of 5MF results in summer, the City of Montréal estimates a high (≥2 µg/L) or very low (1 µg/L) probability of LSL presence, which is then confirmed if the second liter collected after 15 min of stagnation (15MS) exceeds 3 µg/L (Cartier et al. 2012).
+		</p>
+		<p>
+		Concerns associated with partial LSLs. Dual ownership of the service line by the homeowner and the utility results most often in partial LSL replacements (PLSLRs). Utilities usually replace their LSL sections when replacing or renovating their water mains, which results in PLSLRs. Also, some homeowners replace their LSL section before the utility replaces its section. In 2011, the US Environmental Protection Agency (USEPA) Science Advisory Board (SAB) published a report indicating that PLSLRs may pose a risk for consumers (USEPA 2011). Benefits and risks of PLSLRs remain unclear, as short-term acute lead release has been reported in several full-scale systems, while long-term lead concentrations were unchanged or reduced (Trueman et al. 2016, Desmarais et al. 2015, Camara et al. 2013, Commons 2011, Sandvig et al. 2008). These observations conflict with those obtained by a number of peer-reviewed pilot-scale studies, and to a lesser degree by some full-scale studies, which demonstrate sustained particulate lead release following PLSLRs (Commons 2015, Cartier et al. 2013, Wang et al. 2012, Triantafyllidou &amp; Edwards 2011, USEPA 2011, Britton &amp; Richards 1981).
+		</p>
+		<p>
+		Objectives of the study. The primary objective of this project was to propose a monitoring-based decision flowchart to detect LSLs, quantify consumer exposure at critical sites, and assist utilities in the selection and validation of a lead reduction strategy. Secondary objectives were to (1) quantify lead concentrations and piping volumes in different dwelling types; (2) compare profiling results in households with full LSLs, partial LSLs, or without LSLs; and (3) establish a relationship between lead concentrations measured during profile sampling and after flushing.
+		</p>
+		
+		<h1>MATERIAL AND METHODS</h1>
+		<p>
+		Two sampling campaigns (studies A and B) were conducted in 112 households with confirmed or suspected LSLs in 10 boroughs of Montréal during the summers of 2013 and 2014. Water temperatures varied from 17.5 to 24.9°C after 5MF. There was no corrosion control treatment at the water plant. The average pH and alkalinity of the treated water was 7.6 and 86 mg-CaCO3/L, respectively. Before 2006, no reliable information on LSL replacements was available. However, since 2006, the utility started an LSL detection and replacement program. This program systematically replaces public sections of the LSLs with copper during rehabilitation, repair, or replacement work. Materials on the private side of the replaced LSL are observed and recorded. Table 2 details the type of households sampled and the configuration of their service lines. Lead levels were measured onsite using a portable anodic stripping voltammetry (ASV) analyzer, a method approved by USEPA and described in Cartier et al. (2012).		
+		</p>
+		<p>
+		Figure 1 presents different configurations of investigated LSLs: a Pb–Pb (lead–lead) configuration refers to a full LSL, a Cu–Pb (copper–lead) configuration refers to a typical PLSLR or partial LSL (public side replaced by copper), while a Pb–Cu (lead–copper) configuration refers to an inverse PLSLR or partial LSL (private side replaced or copper pipe was initially installed). Figure 2 illustrates the different types of households sampled. Wartime homes correspond to single-family homes built in Canada for returning veterans after World War II; these are typically small houses served by very long service lines (up to 45 m). Single-, two-, and three-family homes refer respectively to residences with one, two, and three dwellings served by one LSL. Semi-detached homes are two single-family homes with attached walls. In some cases, semi-detached homes share the public section of the LSL with the neighboring house.	
+		</p>
+		<p>
+		Profile sampling and detailed piping investigation in multiple types of dwellings with/without an LSL (study A). A total of 44 households were sampled including wartime homes (n = 7), single-family homes (n = 15), semi-detached homes (n = 4), two-family homes (n = 7), and three-family homes (n = 11). These homes had either a confirmed LSL (observations during replacement work or reliable records) or were considered highly likely to have an LSL because they were built before 1970 (the utility stopped installing LSLs between 1963 and 1970). First, the kitchen water was flushed for 5 min and a 1-L sample was collected at a medium flow rate (highest flow rate without splashing water out of the bottle). Next, a controlled stagnation of 30 min was completed after making sure that no one in the dwelling was using water. During the stagnation period, the 5MF sample was analyzed, and the length and diameter of piping were measured inside the house from (1) the tap sampled to the service line connection with the premise plumbing (basement wall), (2) outside the house from this connection to the curb stop valve, and (3) from the curb stop valve to the main (typically in the middle of the street). On the basis of these piping measurements, volumes in different sections of the premise plumbing and service line (private and public side) were estimated. Following the 30-min period of stagnation, and considering the estimation of piping volume performed during stagnation, 8 to 16 consecutive liters were collected (30MS1,…,30MS16). The kitchen faucet aerator remained in place during the sampling. Onsite analysis of the consecutive liters was performed until a peak in lead concentration was observed, and continued until lead concentrations decreased to background concentrations (5MF). For five households with large piping volumes (12–16 L), only selected liters from different sections of the piping were analyzed on the basis of the estimated volume until a clear profile was obtained.
+		</p>
+		<p>
+		The LSL configuration was determined from the comparison of the profile results with the piping volume estimation. It was established that 17 of the 44 households investigated had full LSLs, 20 had partial LSLs, four had galvanized iron service lines, and three had copper service lines (Table 2). These conclusions were cross-validated for 28 households (64%) through (1) reliable records and past replacement work (14 households), (2) observations during replacement work on the service line a year after the sampling (nine households), or (3) repeated profile sampling and multi-metal inductively coupled plasma/mass spectrometry (ICP/MS) analysis (Pb, Fe [iron], Cu, Zn [zinc]) in the households over two years (five households). These 28 households included 14 with partial LSLs, 12 with full LSLs, one with a galvanized iron service line, and one with a copper service line. Most of the partial LSLs were Pb–Cu configurations (n = 14) and Cu–Pb configurations (n = 4), and one was atypical (Pb–Cu–Pb–Cu, confirmed through observation during repairs). The presence of galvanized iron was confirmed by visual inspection of the service line, magnet testing, and repeated sampling with multi-metal ICP/MS analysis.
+		</p>
+		<p>
+		Profile sampling in single-family homes with full or partial LSLs (study B). In the 68 single-family homes sampled, 38 had a Cu–Pb configuration confirmed by the utility (PLSLRs performed between 2007 and 2014 and confirmed lead pipes on the private side). The 30 other households were confirmed as being served by an LSL using the sampling procedure developed with the utility (Cartier et al. 2012). These LSLs were classified as full LSLs by default. It is possible, however, that PLSLRs were performed before 2006 (start of the LSL replacement program) or that partial LSLs were in place at the time of construction (copper on the private side) for half of these houses (according to utility observations). The sampling protocol was comparable to the one used for study A, except that the stagnation time was 15 min according to the utility LSL detection procedure (Cartier et al. 2012), 8 consecutive liters were collected in every household, and no detailed investigation of the piping was carried out.
+		</p>
+		<p>
+		Validation of ASV analyzer results. ASV analyzer results were shown to be comparable to the ones obtained by ICP/MS in a previous study within the same system (Cartier et al. 2012). Fifteen of the households sampled in study A were recruited for long-term monitoring of water lead levels, including the collection of 2-L samples after 5MF and controlled 30MS in the entire dwelling. Among the 15 households, seven had full LSLs, seven had PLSLRs, and one had a galvanized iron service line. Samples were analyzed for total and dissolved lead using ICP/MS following 0.5% HNO3 (nitric acid) acidification of the samples as described in Deshommes et al. (2010). Lead concentrations measured by using the ASV analyzer in study A (5MF and average of 30MS1 and 30MS2, 1-L samples) were compared with the lead concentrations measured from repeated sampling in the same households using ICP/MS (5MF and 30MS, 2-L samples), for the same season. Only summer samples were considered for comparison (with temperature ranges of 19–25°C for study A in 2013 and 18–25°C for the long-term study in 2014 after 5MF).
+		</p>
+		
+		<h1>RESULTS AND DISCUSSION</h1>
+		<p>
+		Using ASV analyzer data for the detection of LSLs. The comparison of the 47 paired data presented in Figure 3 shows a very good correlation (R2 = 0.93) between ICP/MS and ASV measurements for different sampling events and various service line configurations. One outlier result of 59.4 µg/L with 87% of particulate lead was excluded from the correlation, though this result is illustrated in Figure 3. The correlation between the two instruments shows that the ASV analyzer measurements were slightly different from total lead concentrations measured by the ICP/MS. For low lead levels, the ASV analyzer slightly overestimated the ICP/MS measurements, while the opposite trend was observed for higher lead concentrations. However, ASV is a cost-effective tool for onsite monitoring, which can be beneficial to small utilities without extensive analytical capabilities. The concern has been that it may not be suitable for distribution systems with high particulate lead in tap water, for samples collected after extended stagnation or at high flow rate (Cartier et al. 2012, Triantafyllidou &amp; Edwards 2011), or for water temperatures &lt;15°C. In the system studied, extensive sampling has shown, however, that the particulate lead release after 30MS is limited and related to the release of solder and brass particles from the premise plumbing (Deshommes et al. 2010).
+		</p>
+
+		<h1>CONCLUSION</h1>
+		<p>
+		This study investigated the challenges linked to LSL detection and estimation of lead concentrations to which consumers can be exposed at the tap in a full-scale distribution system. Single-family homes, especially those with long LSLs, were confirmed to be at acute risk for exposure resulting from higher volumes of service lines and probability of occurrence of elevated lead levels at the consumer tap. Detailed investigations confirmed the wide variation of piping volumes of service lines and premise plumbing among different types of dwellings, resulting in variable profile sampling results. Results show that typical regulatory sampling protocols are not capable of detecting LSLs or assessing exposure at high-risk sites.
+		</p>
+		<p>Lead concentrations at PLSLR sites were generally lower than for households with full LSLs in this distribution system. Concentrations in flushed samples and average lead levels were proportional to the length of lead pipe. Partial LSLs were more difficult to detect considering the generally lower levels and that peak concentrations can appear subsequently in the profile samples.
+		</p>
+		<p>
+Utilities and public health authorities need to identify and locate LSLs, verify the effectiveness of their lead reduction strategies, and understand consumer exposure to lead at the tap in order to implement adequate public health protection measures. The combination of two sampling protocols—a simple, cost-effective flushed procedure on a large-scale and profile sampling at a limited number of high-risk sites—can be used to achieve these goals.
+		</p>
+	</body>
+	
+<!-- Back -->	
+	<back>
+		<ack>
+			<p>ACKNOWLEDGMENT</p>
+			<p>
+			The authors would like to acknowledge the participating households, the interns (H. Cortial, N. Aouba) and technical staff (Y. Fontaine), and M. Joseph and C. Potvin (City of Montréal). Funding for this study was provided by the Canadian Water Network and the NSERC Industrial Chair on Drinking Water at Polytechnique Montréal.
+			</p>
+		</ack>
+		<bio>
+			<p>ABOUT THE AUTHORS</p>
+			<p>
+			Elise Deshommes (to whom correspondence may be addressed) is a research associate at the NSERC Chair on Drinking Water in the Department of Civil, Geological, and Mining Engineering at Polytechnique Montréal, 2900 boul. Edouard Montpetit, H3T 1J4, Montréal, Que., Canada; 
+e.deshommes@polymtl.ca. She holds a bachelor’s degree in civil engineering from ESTP (Paris, France) and a PhD in civil engineering from Polytechnique Montréal. Between 2012 and 2015 she was the project manager of the Canadian Water Network project on partial lead service line replacements in collaboration with the University of Toronto (Ont., Canada), the University of Dalhousie (Halifax, N.S., Canada), and five Canadian utilities. Alicia Bannier is an engineer in la Direction de la Gestion Stratégique des Réseaux d’Eau for Ville de Montréal. Laurent Laroche is a division manager in Service de l’Environnement for Ville de Montréal. Shokoufeh Nour is a research associate and director of CREDEAU Laboratories at Polytechnique Montréal. Michèle Prévost is a professor and senior chairholder at Polytechnique Montréal.
+			</p>
+		</bio>
+		<ref-list>
+			<p>REFERENCES</p>
+			<ref id="B1">
+				<label>Cornwell et al.</label>
+				<element-citation publication-type="journal" publication-format="print">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cornwell</surname>
+							<given-names>D. A.</given-names>
+						</name>
+						<name>	
+							<surname>Brown</surname>
+							<given-names>R. A.</given-names>
+						</name>
+						<name>	
+							<surname>Via</surname>
+							<given-names>S. H.</given-names>
+						</name>
+					</person-group>
+					<article-title>National Survey of Lead Service Line Occurrence</article-title>
+					<source>Journal AWWA</source>
+					<year iso-8601-date="2016">2016</year>
+					<volume>108</volume>
+					<fpage>E182</fpage>
+					<uri>http://dx.doi.org/10.5942/jawwa.2016.108.0086</uri>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>Hanna-Attisha et al.</label>
+				<element-citation publication-type="journal" publication-format="print">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hanna-Attisha</surname>
+							<given-names>M.</given-names>
+						</name>
+						<name>
+							<surname>LaChance</surname>
+							<given-names>J.</given-names>
+						</name>
+						<name>	
+							<surname>Sadler</surname>
+							<given-names>R.C.</given-names>
+						</name>
+						<name>	
+							<surname>Champney Schnepp</surname>
+							<given-names>A.</given-names>
+						</name>
+					</person-group>
+					<article-title>Elevated Blood Lead Levels in Children Associated With the Flint Drinking Water Crisis: A Spatial Analysis of Risk and Public Health Response.
+					</article-title>
+					<source>American Journal of Public Health</source>
+					<year iso-8601-date="2016">2016</year>
+					<volume>106</volume>
+					<issue>2</issue>
+					<fpage>283</fpage>
+					<uri>http://dx.doi.org/10.2105/AJPH.2015.303003</uri>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>Sandvig et al.</label>
+				<element-citation publication-type="journal" publication-format="print">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sandvig</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kwan</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Kirmeyer</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>	
+							<surname>Maynard</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>	
+							<surname>Mast</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Trussell</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>	
+							<surname>Trussell</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>	
+							<surname>Cantor</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>	
+							<surname>Prescott</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Contribution of Service Line and Plumbing Fixtures to Lead and Copper Rule Compliance Issues.</article-title>
+					<source> AWWA Research Foundation</source>
+					<year iso-8601-date="2008">2008</year>
+					<publisher-loc>Denver</publisher-loc>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	
+<!-- Floating Element Group (figures, tables) -->
+<!-- These elements are included to demonstrate calculations only -->	
+	<floats-group>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<fig></fig>
+		<table-wrap></table-wrap>
+		<table-wrap></table-wrap>
+		<table-wrap></table-wrap>
+	</floats-group>
+</article>
